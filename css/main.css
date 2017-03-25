@@ -10,3 +10,7 @@ label,
 #submit {
     display: block;
 }
+
+.field {
+    width: 300px;
+}
