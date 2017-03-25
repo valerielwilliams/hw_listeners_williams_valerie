@@ -3,6 +3,10 @@ h1 {
     color: #333333;
 }
 
+body {
+    background:url("../img/shiplap.jpg") no-repeat;
+}
+
 p {
     font-family: font-family: 'Pinyon Script', cursive;
     color: #555555;
