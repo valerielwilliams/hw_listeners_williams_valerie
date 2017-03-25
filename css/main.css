@@ -14,18 +14,22 @@ body {
 }
 
 .container {
-    padding-top: 20px;
-    max-width: 1000px;
+    display: block;
     margin: 0 auto;
+    width: 600px;
 }
 
-label,
+form {
+    padding-top: 20px;
+}
+
+form label,
 #submit {
     display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .field {
-    width: 300px;
-    -webkit-border-radius: 4px 4px 4px 4px; /* courtesy of http://css3generator.com/ */
-    border-radius: 4px 4px 4px 4px;
+    width: 400px;
 }
