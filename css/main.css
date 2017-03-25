@@ -5,3 +5,8 @@ body {
 .container {
     margin: 0 auto;
 }
+
+label,
+#submit {
+    display: block;
+}
