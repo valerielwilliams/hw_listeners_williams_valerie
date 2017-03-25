@@ -10,28 +10,28 @@
 </head>
 <body>
     <div class="container">
-        <form> <!--http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/-->
+        <form id="form1" action="post"> <!--http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/-->
             <label>
                 First Name
             </label>
-            <input class="field" name="firstname" placeholder="First Name">
+            <input class="field" name="firstname" type ="text" placeholder="First Name">
 
             <label>
                 Last Name
             </label>
-            <input class="field" name="lastname" placeholder="Last Name">
+            <input class="field" name="lastname" type ="text" placeholder="Last Name">
 
             <label>
                 Email
             </label>
-            <input class="field" name="email" placeholder="Email address">
+            <input class="field" name="email" type="email" placeholder="Email address">
 
             <label>
                 Message
             </label>
-            <textarea class="field" name="message" placeholder="Type message here."></textarea>
+            <textarea class="field" name="message" type="text" placeholder="Type message here."></textarea>
 
-            <input id="submit" name="submit" type="submit" value= "Submit">
+            <input id="button" name="submit" type="submit" value= "Submit">
         </form>
     </div>
     <script src="js/main.js"></script>
