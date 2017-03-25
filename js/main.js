@@ -9,3 +9,8 @@ var goodday = document.getElementById('good'); //This listens for a mouse hover 
 goodday.addEventListener('mouseover', function (event) { //Upon hearing the hover, the paragraph turns blue.
     event.target.style.color = '#2981b5';
 });
+
+var magnolia = document.getElementById('header'); //This listens for a double-click on the h1.
+magnolia.addEventListener('dblclick', function (event) { //Upon hearing the double-click, the font-size
+    event.target.style.fontSize = '50px';                //increases to 50px.
+});
