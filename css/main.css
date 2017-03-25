@@ -28,3 +28,10 @@ p {
     padding-bottom: 5px;
     margin: 0 auto;
 }
+
+#chipandjojo {
+    position: absolute;
+    top: 20%;
+    margin-left: 20px;
+    border: 1px solid #333333;
+}
