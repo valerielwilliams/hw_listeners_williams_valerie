@@ -48,3 +48,12 @@ textarea {
     background: url(../img/textarea.jpg) no-repeat;
 
 }
+
+#submit {
+    background: white;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #c0a2c8;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
