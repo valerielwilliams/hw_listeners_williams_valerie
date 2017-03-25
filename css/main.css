@@ -26,6 +26,6 @@ label,
 
 .field {
     width: 300px;
-    -webkit-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px; /* courtesy of http://css3generator.com/ */
     border-radius: 4px 4px 4px 4px;
 }
