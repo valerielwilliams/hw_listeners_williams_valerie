@@ -18,6 +18,13 @@ body {
     width: 600px;
 }
 
+header {
+    background: white;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #c0a2c8;
+    padding-left: 20px;
+}
+
 form {
     padding-top: 20px;
 }
