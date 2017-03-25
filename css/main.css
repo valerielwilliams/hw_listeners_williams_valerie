@@ -53,7 +53,7 @@ form label {
 
 textarea {
     background: url(../img/textarea.jpg) no-repeat;
-
+    border-color: #999999;
 }
 
 #submit {
